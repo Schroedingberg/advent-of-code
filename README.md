@@ -1,6 +1,12 @@
 # aoc2025
 
-FIXME: my new application.
+My solutions to Advent of Code 2025 - all in clojure.
+The project was initialized with https://github.com/seancorfield/clj-new
+
+
+For now, you can ignore most of the boilerplate below.
+I am keeping this simple, with a let in [(/home/aaron/Dev/advent-of-code/aoc2025/src/aaronmeinel/aoc2025.clj)[the main src file]]
+for each puzzle.
 
 ## Installation
 
