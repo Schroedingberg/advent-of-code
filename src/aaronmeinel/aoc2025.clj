@@ -2,7 +2,10 @@
   (:gen-class)
   (:require [clojure.string :as str]
             [clojure.java.io :as io]
-            [aaronmeinel.01.solution :as sol-01]))
+            [aaronmeinel.01.solution :as sol-01]
+            [aaronmeinel.02.part-1 :as sol-02-01]
+            [aaronmeinel.02.part-2 :as sol-02-02])
+  )
 
 
 
@@ -51,6 +54,16 @@
 ;; Part 2
 (let [data (read-lines "01/input.txt")]
   (sol-01/count-zero-rotations-with-transient-zeros data))
+
+;; Day 2
+;; Part 1
+(let [data (read-input "02/input.txt")]
+  (sol-02-01/solve data ))
+
+;; Part 2
+(let [data (read-input "02/input.txt")]
+  (sol-02-02/solve data))
+
 
 
 (defn greet
