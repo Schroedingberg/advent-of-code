@@ -45,9 +45,12 @@
        (mapv str/split-lines)))
 
 ;; Day 1
+;; Part 1
 (let [data (read-lines "01/input.txt")]
   (sol-01/count-zero-rotations data))
-
+;; Part 2
+(let [data (read-lines "01/input.txt")]
+  (sol-01/count-zero-rotations-with-transient-zeros data))
 
 
 (defn greet
